@@ -7,3 +7,10 @@ CREATE TABLE employees (
     salary INT DEFAULT 13000, 
     hire_date DATE
 );
+
+select * from employees;
+
+INSERT INTO employees (fname, lname, email, dept, salary, hire_date)
+VALUES ( 'Rahesh', 'Kumar', 'rahes@gmail.com', 'IT', 43000, '2023-02-20');
+
+
