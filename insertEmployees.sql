@@ -39,7 +39,8 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- select * from employees where dept like '__';
 -- select * from employees where dept like '_a%';
 -- select count(fname) from employees;
-select sum(salary) from employees;
+-- select sum(salary) from employees;
+select avg(salary) from employees;
 
 
 
