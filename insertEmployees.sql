@@ -33,6 +33,7 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- where salary between 60000 AND 70000;
 
 -- select distinct dept from employees;
-select * from employees order by fname desc;
+-- select * from employees order by fname desc;
+select * from employees order by fname limit 3;
 
 
