@@ -35,6 +35,6 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- select distinct dept from employees;
 -- select * from employees order by fname desc;
 -- select * from employees order by fname limit 3;
-select * from employees where fname like '%a%';
+select * from employees where fname like 'A%';
 
 
