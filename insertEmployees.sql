@@ -41,7 +41,10 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- select count(fname) from employees;
 -- select sum(salary) from employees;
 -- select avg(salary) from employees;
-select min(salary) from employees;
+-- select min(salary) from employees;
+
+
+-- select dept,sum(salary) from employees group by dept;
 
 
 
