@@ -19,3 +19,9 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 (18, 'Quinn', 'King', 'quinn.king@example.com', 'Finance', 53000, '2022-10-28'),
 (19, 'Rachel', 'Scott', 'rachel.scott@example.com', 'IT', 57000, '2023-05-03'),
 (20, 'Sam', 'Baker', 'sam.baker@example.com', 'Marketing', 45000, '2021-08-14');
+
+
+
+
+select * from employees
+where id=9;
