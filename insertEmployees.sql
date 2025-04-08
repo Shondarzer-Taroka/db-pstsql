@@ -28,4 +28,5 @@ select * from employees
 -- where salary >=50000;
 -- where dept ='IT' OR dept='Marketing';
 -- where dept ='IT' AND salary >=50000
-where dept in ('IT','HR');
+-- where dept in ('IT','HR');
+where dept not in ('IT','HR');
