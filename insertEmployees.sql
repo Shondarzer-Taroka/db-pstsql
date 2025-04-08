@@ -23,11 +23,16 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 
 
 
-select * from employees
+-- select * from employees
 -- where id=9;
 -- where salary >=50000;
 -- where dept ='IT' OR dept='Marketing';
 -- where dept ='IT' AND salary >=50000
 -- where dept in ('IT','HR');
 -- where dept not in ('IT','HR');
-where salary between 60000 AND 70000;
+-- where salary between 60000 AND 70000;
+
+select distinct dept from employees;
+
+
+
