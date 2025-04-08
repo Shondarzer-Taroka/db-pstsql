@@ -32,7 +32,7 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- where dept not in ('IT','HR');
 -- where salary between 60000 AND 70000;
 
-select distinct dept from employees;
-
+-- select distinct dept from employees;
+select * from employees order by fname
 
 
