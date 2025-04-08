@@ -23,5 +23,6 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 
 
 
-select * from employees
 where id=9;
+select * from employees
+where salary >=50000;
