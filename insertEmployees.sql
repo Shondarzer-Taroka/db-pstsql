@@ -26,4 +26,6 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 select * from employees
 -- where id=9;
 -- where salary >=50000;
-where dept ='IT' OR dept='Marketing';
+-- where dept ='IT' OR dept='Marketing';
+-- where dept ='IT' AND salary >=50000
+where dept in ('IT','HR');
