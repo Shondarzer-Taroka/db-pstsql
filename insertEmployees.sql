@@ -52,6 +52,11 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- select concat(fname,lname) as Full_Name from employees;
 -- select concat_ws(' ',fname,lname) as Full_Name from employees;
 
+SELECT LENGTH(fname) AS fname_length, 
+       LENGTH(lname) AS lname_length, 
+       LENGTH(dept) AS dept_length 
+FROM employees;
+
 
 
 
