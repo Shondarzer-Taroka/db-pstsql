@@ -49,7 +49,7 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 
 
 -- select concat(fname,lname) from employees;
-
+-- select concat(fname,lname) as Full_Name from employees;
 
 
 
