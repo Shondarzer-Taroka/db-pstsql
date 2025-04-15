@@ -44,7 +44,11 @@ INSERT INTO employess (id, fname, lname, email, dept, salary, hire_date) VALUES
 -- select min(salary) from employees;
 
 
--- select dept,sum(salary) from employees group by dept;
+-- select dept,sum(salary) from employees group by dept
+-- select dept,min(salary) from employees group by dept;
+
+
+-- select concat(fname,lname) from employees;
 
 
 
