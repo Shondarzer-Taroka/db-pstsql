@@ -40,3 +40,4 @@ select * from bankAccounts where dept in('IT') ;
 SELECT * FROM bankAccounts ORDER BY fname;
 select * from bankAccounts limit 4;
 select max(salary) from bankAccounts;
+select dept from bankAccounts group by dept; 
