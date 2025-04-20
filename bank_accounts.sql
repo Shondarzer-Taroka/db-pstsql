@@ -38,3 +38,4 @@ select fname from bankAccounts;
 select * from bankAccounts where salary >=50000 ;
 select * from bankAccounts where dept in('IT') ;
 SELECT * FROM bankAccounts ORDER BY fname;
+select * from bankAccounts limit 4
