@@ -35,3 +35,4 @@ INSERT INTO bankAccounts (emp_id, fname, lname, email, dept, salary, hire_date) 
 
 
 select fname from bankAccounts;
+select * from bankAccounts where salary >=50000 ;
