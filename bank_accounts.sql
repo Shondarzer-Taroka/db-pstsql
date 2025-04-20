@@ -42,3 +42,4 @@ select * from bankAccounts limit 4;
 select max(salary) from bankAccounts;
 select dept from bankAccounts group by dept; 
 select dept,count(fname) from bankAccounts group by dept; 
+SELECT REVERSE(fname) from bankAccounts;
