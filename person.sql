@@ -11,3 +11,8 @@ add column upazila varchar(23) default 'Dhaka'
 
 alter table person
 rename column upazila to district
+
+
+alter table person
+ALTER COLUMN district
+SET  NOT NULL
