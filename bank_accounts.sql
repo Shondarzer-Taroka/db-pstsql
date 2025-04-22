@@ -45,5 +45,5 @@ select dept,count(fname) from bankAccounts group by dept;
 SELECT REVERSE(fname) from bankAccounts;
 select length(fname) from bankAccounts;
 
-
+select count(lname) from bankAccounts
 
