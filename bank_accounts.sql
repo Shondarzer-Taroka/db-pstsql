@@ -46,4 +46,6 @@ SELECT REVERSE(fname) from bankAccounts;
 select length(fname) from bankAccounts;
 
 select * from bankAccounts order by salary desc
+select * from bankAccounts where fname like 'A%'
+select * from bankAccounts where length(lname)=4
 
