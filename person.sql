@@ -10,6 +10,7 @@ drop column age
 alter table person
 add column upazila varchar(23) default 'Dhaka'
 
+
 alter table person
 rename column upazila to district
 
