@@ -32,3 +32,6 @@ add column mob varchar(15) unique check(length (mob)>=15)
 
 select * from person
 select * from manush
+
+alter table person 
+drop column mob
