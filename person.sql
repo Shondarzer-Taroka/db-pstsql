@@ -27,5 +27,8 @@ add column mob varchar(15) unique check(length (mob)>=15)
  alter table person
  rename to manush
 
+ alter table manush 
+ rename to person
+
 select * from person
 select * from manush
