@@ -14,3 +14,4 @@ INSERT INTO employees (fname, lname, email, dept, salary, hire_date)
 VALUES ( 'Rahesh', 'Kumar', 'rahes@gmail.com', 'IT', 43000, '2023-02-20');
 
 
+
